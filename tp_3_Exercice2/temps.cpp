@@ -47,6 +47,11 @@ void temps::affichetime(){
         }
     }
 }
+void temps::affichetimeFR(){
+    
+        cout<<"time in french "<<this->hour<<":"<<this->min<<":"<<this->second<<endl;
+  
+}
 //void temps::converten_fr(){
   //  this->hour-=12;
     
