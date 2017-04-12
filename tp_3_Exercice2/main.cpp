@@ -18,6 +18,7 @@ using namespace std;
 int main(int argc, char** argv) {
     temps *a = new temps();
     a->lire_temp();
+    a->affichetimeFR();
     a->convertfr_en();
     a->affichetime();
     int choix; 
