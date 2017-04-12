@@ -20,6 +20,7 @@ public:
     void lire_temp();
     void convertfr_en();
     void affichetime();
+    void affichetimeFR();
 private:
 
 };
