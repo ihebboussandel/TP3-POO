@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     a->lire_temp();
     cout<<"give the second time B"<<endl; 
     b->lire_temp();
-    cout<<"SHow time in French [hit 1] or ENGLISH?[hit2] "<<endl;
+    cout<<"SHow time in French [hit 1] or ENGLISH?[hit0] "<<endl;
     cin>>value;
     
     if (value ==1){
@@ -35,12 +35,12 @@ int main(int argc, char** argv) {
         cout<<"oups wrong choice "<<endl;
     }
    if( b->comparetime(b,a)==1){
-       cout <<" le temp a inferieur"<<endl; 
+       cout <<" le temp A inferieur que B"<<endl; 
    }else{
-       cout<<" le temp 1 et superiour"<<endl;
+       cout<<" le temp A et superiour QuE B"<<endl;
    }
     
- 
+  
     return 0;
 }
 
