@@ -99,8 +99,6 @@ bool temps::comparetime(temps *time2, temps *time1){
     int seconds2;
     seconds1=(time2->hour*3600)+(time2->min *60)+time2->second;
     seconds2=(time1->hour*3600)+(time1->min *60)+time1->second;
-    cout<<seconds1<<endl;
-    cout<<seconds2<<endl;
     if(seconds1>seconds2)
     {return 0;
 }else{
