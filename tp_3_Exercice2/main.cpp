@@ -16,20 +16,31 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
+    int value;
     temps *a = new temps();
+    temps *b = new temps();
+    cout<<"give the first time A"<<endl; 
     a->lire_temp();
+    cout<<"give the second time B"<<endl; 
+    b->lire_temp();
+    cout<<"SHow time in French [hit 1] or ENGLISH?[hit2] "<<endl;
+    cin>>value;
+    
+    if (value ==1){
     a->affichetimeFR();
+    }else if (value==0){
     a->convertfr_en();
     a->affichetime();
-    int choix; 
-    switch(choix){
-        case 1: 
-            break;
-        case 2 :
-            break;
-        default: 
-            break;
+    }else{
+        cout<<"oups wrong choice "<<endl;
     }
+   if( b->comparetime(b,a)==1){
+       cout <<" le temp a inferieur"<<endl; 
+   }else{
+       cout<<" le temp 1 et superiour"<<endl;
+   }
+    
+ 
     return 0;
 }
 
