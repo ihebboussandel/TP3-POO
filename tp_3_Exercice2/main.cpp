@@ -35,9 +35,9 @@ int main(int argc, char** argv) {
         cout<<"oups wrong choice "<<endl;
     }
    if( b->comparetime(b,a)==1){
-       cout <<" le temp A inferieur que B"<<endl; 
+       cout <<" le temp A et superiour  que B"<<endl; 
    }else{
-       cout<<" le temp A et superiour QuE B"<<endl;
+       cout<<" le temp A et inferieur que B"<<endl;
    }
     
   
