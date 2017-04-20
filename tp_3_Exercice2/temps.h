@@ -21,6 +21,7 @@ public:
     void convertfr_en();
     void affichetime();
     void affichetimeFR();
+    bool comparetime(temps *time2, temps *time1);
 private:
 
 };
